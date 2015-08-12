@@ -14,6 +14,8 @@
  * @package WordPress
  */
 
+define ('WPLANG', 'pt_BR');
+
 // ** MySQL settings - You can get this info from your web host ** //
 if ( (getenv('DATABASE_URL') !== false) or (getenv('CLEARDB_DATABASE_URL') !== false) ) {
 	$url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));

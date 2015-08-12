@@ -31,7 +31,7 @@ else { // localhost
 	/** MySQL database username */
 	define('DB_USER', 'wordpressuser');
 	/** MySQL database password */
-	define('DB_PASSWORD', getenv('MYSQL_PASSWORD'));
+	define('DB_PASSWORD', 'mysql');
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
 }
